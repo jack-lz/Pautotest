@@ -1,0 +1,21 @@
+version : version17
+extrTimes : 2
+sampRate : 22050
+vad_SamplesPerFrame : 480
+vad_BeginSpeechsFrames : 1
+vad_EndSpeechsFrames : 2
+vad_InitFrames : 1
+vad_SpaceStartFrames : 4
+beep_f_range : 300
+
+startVR_type1 : 1
+beep1_freq  : 2196.4
+beep1_voice_len : 0.10
+
+returnVR_type2 : 2
+beep2_freq : 861.3
+beep2_voice_len : 0.50
+
+endVR_type3 : 3
+beep3_freq : 1248.9
+beep3_voice_len : 0.70

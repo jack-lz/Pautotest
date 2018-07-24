@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<report>
+	<case>
+		<case_name>tuneTo530AM</case_name>
+		<case_result>success</case_result>
+		<case_extra_run_times>0</case_extra_run_times>
+	</case>
+</report>

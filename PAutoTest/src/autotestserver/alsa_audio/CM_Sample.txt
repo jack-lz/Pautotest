@@ -1,0 +1,9 @@
+FILE(GLOB_RECURSE HEADER_LIST "*.h")
+add_custom_target(scxml SOURCES ${HEADER_LIST} ${SRC_LIST})
+
+
+aux_source_directory(. SRC_LIST)
+
+add_library(csc_scxml ${SRC_LIST})
+
+target_include_directories(csc_scxml PUBLIC ${CMAKE_CURRENT_SOURCE_DIR} PRIVATE "../contribute/pugixml/src")
